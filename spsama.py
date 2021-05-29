@@ -278,7 +278,7 @@ news_df = pd.DataFrame(parsed_news)
 st.write(news_df)
 print(parsed_news)
 
-#nltk.download('vader_lexicon')
+nltk.download('vader_lexicon')
 vader = SentimentIntensityAnalyzer()
 columns = ['ticker', 'date', 'time', 'headline']
 parsed_and_scored_news = pd.DataFrame(parsed_news, columns=columns)
