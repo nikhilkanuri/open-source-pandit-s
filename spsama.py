@@ -12,6 +12,7 @@ import pandas as pd
 import numpy as np
 from nltk.sentiment.vader import SentimentIntensityAnalyzer
 import nltk
+nltk.download('vader_lexicon')
 from stockstats import StockDataFrame
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LinearRegression
@@ -278,7 +279,7 @@ news_df = pd.DataFrame(parsed_news)
 st.write(news_df)
 print(parsed_news)
 
-#nltk.download('vader_lexicon')
+
 vader = SentimentIntensityAnalyzer()
 columns = ['ticker', 'date', 'time', 'headline']
 parsed_and_scored_news = pd.DataFrame(parsed_news, columns=columns)
