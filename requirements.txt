@@ -1,1 +1,8 @@
 matplotlib
+nltk
+stockstats
+sklearn
+datetime
+bs4
+urllib
+plotly
