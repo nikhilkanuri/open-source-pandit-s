@@ -6,4 +6,4 @@ datetime
 bs4
 plotly
 yfinance
-nltk.sentiment.vader
+nltk
