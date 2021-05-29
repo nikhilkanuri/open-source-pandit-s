@@ -5,3 +5,4 @@ sklearn
 datetime
 bs4
 plotly
+yfinance
