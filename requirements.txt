@@ -6,3 +6,4 @@ datetime
 bs4
 plotly
 yfinance
+nltk.download('vader_lexicon')
